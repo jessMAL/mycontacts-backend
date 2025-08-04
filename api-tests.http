@@ -1,0 +1,29 @@
+GET http://localhost:3331/api/contacts
+Content-Type: application/json
+
+###
+
+POST http://localhost:3331/api/contacts
+Content-Type: application/json
+
+{
+  "name": "Alice",
+  "email": "alice@example.com",
+  "phone": "6851465456"
+}
+
+
+###
+GET http://localhost:3331/api/contacts/1
+Content-Type: application/json
+
+###
+
+PUT http://localhost:3331/api/contacts/1
+Content-Type: application/json
+
+###
+
+DELETE http://localhost:3331/api/contacts/1
+Content-Type: application/json
+
