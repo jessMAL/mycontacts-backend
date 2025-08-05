@@ -1,0 +1,23 @@
+POST http://localhost:3331/api/users/register
+Content-Type: application/json
+
+{
+  "username": "Alice 3",
+  "email": "alice3@example.com",
+  "password": "123456"
+}
+
+
+###
+
+POST http://localhost:3331/api/users/login
+Content-Type: application/json
+
+{
+  "email": "alice3@example.com",
+  "password": "123456"
+}
+
+### Access Protected Route
+GET http://localhost:3331/api/users/current
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InVzZXJuYW1lIjoiQWxpY2UgMyIsImVtYWlsIjoiYWxpY2UzQGV4YW1wbGUuY29tIiwiaWQiOiI2ODkyMWVjZDIxOTczYTBkMjNiNmE3YzcifSwiaWF0IjoxNzU0NDE3NTA0LCJleHAiOjE3NTQ0MTc1NjR9.0GgBnMlDP-HFg-UnanBj6isOv6Ra5mWeWnlkscggDJg

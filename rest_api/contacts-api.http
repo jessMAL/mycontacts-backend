@@ -9,21 +9,25 @@ Content-Type: application/json
 {
   "name": "Alice",
   "email": "alice@example.com",
-  "phone": "6851465456"
+  "phone": "0000"
 }
 
 
 ###
-GET http://localhost:3331/api/contacts/1
+GET http://localhost:3331/api/contacts/68911e519bbe395c20fb2808
 Content-Type: application/json
 
 ###
 
-PUT http://localhost:3331/api/contacts/1
+PUT http://localhost:3331/api/contacts/68911e519bbe395c20fb2808
 Content-Type: application/json
+
+{
+  "name": "Alice updated"
+}
 
 ###
 
-DELETE http://localhost:3331/api/contacts/1
+DELETE http://localhost:3331/api/contacts/68920bb7b423744163123e2d
 Content-Type: application/json
 

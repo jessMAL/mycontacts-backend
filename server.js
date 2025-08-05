@@ -2,7 +2,8 @@ import express from "express";
 import "dotenv/config";
 //If your route file does export default router, then import like:
 //Because default exports are imported without {}.
-import  contactsRoutes from './routes/contact-routes.js';
+import contactsRoutes from './routes/contact-routes.js';
+import usersRoutes from './routes/user-routes.js';
 import { errorHandler } from "./middleware/error-handler.js";
 import { connectionDb } from "./config/db-connection.js";
 
@@ -22,6 +23,7 @@ app.use(express.json());
 
 //rotas
 app.use('/api/contacts', contactsRoutes);
+app.use('/api/users', usersRoutes);
 
 //error handler, custom middleware
 app.use(errorHandler);
