@@ -1,15 +1,17 @@
 GET http://localhost:3331/api/contacts
 Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InVzZXJuYW1lIjoiQWxpY2UgMyIsImVtYWlsIjoiYWxpY2UzQGV4YW1wbGUuY29tIiwiaWQiOiI2ODkyMWVjZDIxOTczYTBkMjNiNmE3YzcifSwiaWF0IjoxNzU0NDI2MzU0LCJleHAiOjE3NTQ0MjcyNTR9.0R0YeX_UPouZrWrwxWkQccKLez6FWmXinhpGCm33OYQ
 
 ###
 
 POST http://localhost:3331/api/contacts
 Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InVzZXJuYW1lIjoiQWxpY2UgMyIsImVtYWlsIjoiYWxpY2UzQGV4YW1wbGUuY29tIiwiaWQiOiI2ODkyMWVjZDIxOTczYTBkMjNiNmE3YzcifSwiaWF0IjoxNzU0NDI2MzU0LCJleHAiOjE3NTQ0MjcyNTR9.0R0YeX_UPouZrWrwxWkQccKLez6FWmXinhpGCm33OYQ
 
 {
-  "name": "Alice",
-  "email": "alice@example.com",
-  "phone": "0000"
+  "name": "Jessica",
+  "email": "jess@example.com",
+  "phone": "77777888"
 }
 
 
